@@ -1,0 +1,70 @@
+/* Updated CSS with more styling for an attractive look */
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #292929;
+  width: 250px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #444;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #fff;
+  background-color: #555;
+}
+
+/* Main content styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Styles for header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+   

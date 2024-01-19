@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Page</title>
+  <link rel="stylesheet" href="oder.css">
+</head>
+<body>
+  <section class="add-item-section">
+    <h2>Add Food Item</h2>
+    <form id="addItemForm">
+      <label for="itemName">Item Name:</label>
+      <input type="text" id="itemName" name="itemName" required>
+      
+      <label for="itemPrice">Item Price ($):</label>
+      <input type="number" id="itemPrice" name="itemPrice" step="0.01" required>
+      
+      <button type="submit">Add Item</button>
+    </form>
+  </section>
+
+  <section class="remove-item-section">
+    <h2>Remove Food Item</h2>
+    <input type="text" id="searchItem" placeholder="Search Food Item">
+    <button id="removeItemBtn">Search & Remove</button>
+  </section>
+
+  <div class="added-items">
+    <!-- Added items will be displayed here -->
+  </div>
+
+  <script src="oder.js"></script>
+</body>
+</html>
